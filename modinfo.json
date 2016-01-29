@@ -2,8 +2,8 @@
     "type": "MOD_INFO",
     "mod-type": "SUPPLEMENTAL",
     "ident": "scenario_tentaculas",
-    "name": "i am a tentacle-being",
-    "description": "Let's tentacle life!",
+    "name": "i am a demi-human",
+    "description": "人外スタートのシナリオを追加します。主にRPで使われることを目的としています。",
     "author": "Yue Kaburagi",
     "path": ""
 }
