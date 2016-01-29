@@ -1,0 +1,344 @@
+[{
+    "type": "scenario",
+    "ident": "yk_tentacle",
+    "name": "Tentacle",
+    "points": -3,
+    "description": "あなたは人間で言う肩から先と腰から下の部分が触手になってます。それが誇りなのかコンプレックスなのかは分かりませんが、人間の大多数からの評価は*怪物*であったという記憶があります。つまり……ゾンビの世界では何の心配もありませんね！",
+    "start_name": "anyware",
+    "allowed_locs": [
+    	"shelter","house","pawn","bank","mil_surplus","furniture","cabin","lmoe",
+	"lab_stairs", "lab_finale", "ice_lab_stairs", "ice_lab_finale",
+	"mall_a_12", "mall_a_30", "police", "school",
+	"mine_finale"
+    ],
+    "forced_traits": ["ARM_TENTACLES_8", "LEG_TENTACLES"]
+},
+
+
+
+
+{
+    "type" : "ARMOR",
+    "id" : "yk_tentacle_leggsocks",
+    "name" : "tentacle legginth-socks",
+    "weight" : 200,
+    "color" : "dark_gray",
+    "covers" : ["FEET", "LEGS"],
+    "to_hit" : 0,
+    "symbol" : "[",
+    "description" : "レギンスと靴下を繋げて袋状にした、その名もレギンスソックスです。夏場の紫外線からお肌を守ってくれますが、ゾンビや人間からはそこまで守ってくれないでしょう。",
+    "price" : 1300,
+    "material" : ["cotton", "null"],
+    "volume" : 4,
+    "cutting" : 0,
+    "warmth" : 6,
+    "phase" : "solid",
+    "encumbrance" : 5,
+    "bashing" : -4,
+    "flags" : ["VARSIZE", "SKINTIGHT", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS"],
+    "coverage" : 80,
+    "material_thickness" : 1
+},{
+    "type" : "ARMOR",
+    "id" : "yk_tentacle_longtekko",
+    "name" : "tentacle long-tekko",
+    "weight" : 300,
+    "color" : "dark_gray",
+    "covers" : ["HANDS", "ARMS"],
+    "to_hit" : 0,
+    "symbol" : "[",
+    "description" : "古来から触手が文化にあるというある国の、日射しや砂埃から肌を守るための衣類です。これはその中でも丈が長い、長手甲と呼ばれるものです。",
+    "price" : 700,
+    "material" : ["cotton", "null"],
+    "volume" : 4,
+    "cutting" : 0,
+    "warmth" : 6,
+    "phase" : "solid",
+    "encumbrance" : 5,
+    "bashing" : -5,
+    "flags" : ["VARSIZE", "SKINTIGHT", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS"],
+    "coverage" : 75,
+    "material_thickness" : 1
+},{
+    "type" : "ARMOR",
+    "id" : "yk_tentacle_leggsocks_wool",
+    "name" : "tentacle wool legginth-socks",
+    "weight" : 360,
+    "color" : "dark_gray",
+    "covers" : ["FEET", "LEGS"],
+    "to_hit" : 0,
+    "symbol" : "[",
+    "description" : "フェルト生地を使用したちょっと暖かいレギンスソックスです。少し地厚になったのでゾンビくらいなら頑張るかもしれまん。",
+    "price" : 1500,
+    "material" : ["wool", "null"],
+    "volume" : 6,
+    "cutting" : 0,
+    "warmth" : 24,
+    "phase" : "solid",
+    "encumbrance" : 16,
+    "bashing" : -5,
+    "flags" : ["VARSIZE", "SKINTIGHT", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS"],
+    "coverage" : 90,
+    "material_thickness" : 2
+},{
+    "type" : "ARMOR",
+    "id" : "yk_tentacle_longtekko_wool",
+    "name" : "tentacle wool long-tekko",
+    "weight" : 420,
+    "color" : "dark_gray",
+    "covers" : ["HANDS", "ARMS"],
+    "to_hit" : 0,
+    "symbol" : "[",
+    "description" : "フェルト生地を使用したちょっと暖かい長手甲です。しっかり身体に合わせて作ったのなら、そこまで動きにくくはならないでしょう。",
+    "price" : 800,
+    "material" : ["wool", "null"],
+    "volume" : 6,
+    "cutting" : 0,
+    "warmth" : 24,
+    "phase" : "solid",
+    "encumbrance" : 16,
+    "bashing" : -5,
+    "flags" : ["VARSIZE", "SKINTIGHT", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS"],
+    "coverage" : 85,
+    "material_thickness" : 2
+},{
+    "type" : "ARMOR",
+    "id" : "yk_tentacle_leggsocks_fur",
+    "name" : "tentacle fur legginth-socks",
+    "weight" : 480,
+    "color" : "dark_gray",
+    "covers" : ["FEET", "LEGS"],
+    "to_hit" : 0,
+    "symbol" : "[",
+    "description" : "毛皮を利用したとても暖かいレギンスソックスです。もこもこあったかなのでちょっと動きにくくなります。",
+    "price" : 2000,
+    "material" : ["fur", "null"],
+    "volume" : 8,
+    "cutting" : 0,
+    "warmth" : 58,
+    "phase" : "solid",
+    "encumbrance" : 26,
+    "bashing" : -5,
+    "flags" : ["VARSIZE", "SKINTIGHT", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS"],
+    "coverage" : 94,
+    "material_thickness" : 3
+},{
+    "type" : "ARMOR",
+    "id" : "yk_tentacle_longtekko_fur",
+    "name" : "tentacle fur long-tekko",
+    "weight" : 600,
+    "color" : "dark_gray",
+    "covers" : ["HANDS", "ARMS"],
+    "to_hit" : 0,
+    "symbol" : "[",
+    "description" : "毛皮を利用したとても暖かい長手甲です。もふもふぬくぬくなのでちょっと動きにくくなります。",
+    "price" : 1100,
+    "material" : ["fur", "null"],
+    "volume" : 8,
+    "cutting" : 0,
+    "warmth" : 58,
+    "phase" : "solid",
+    "encumbrance" : 26,
+    "environmental_protection": 1,
+    "bashing" : -5,
+    "flags" : ["VARSIZE", "SKINTIGHT", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS"],
+    "coverage" : 89,
+    "material_thickness" : 3
+},{
+    "type" : "ARMOR",
+    "id" : "yk_tentacle_leggsocks_envguarder",
+    "name" : "tentacle legginth-socks like envguarder",
+    "weight" : 240,
+    "color" : "dark_gray",
+    "covers" : ["FEET", "LEGS"],
+    "to_hit" : 0,
+    "symbol" : "[",
+    "description" : "他の環境防護服などを参考に作成した、触手用の環境防護型のレギンスソックスです。先端部分を中心に、全体を複合素材で作ったため、重さの割には動きにくいです。",
+    "price" : 35000,
+    "material" : ["nomex", "plastic", "leather"],
+    "volume" : 7,
+    "cutting" : 0,
+    "warmth" : 6,
+    "phase" : "solid",
+    "encumbrance" : 20,
+    "environmental_protection": 6,
+    "bashing" : -5,
+    "flags" : ["VARSIZE", "SKINTIGHT", "STURDY", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "WATERPROOF"],
+    "coverage" : 98,
+    "material_thickness" : 2
+},{
+    "type" : "ARMOR",
+    "id" : "yk_tentacle_longtekko_envguarder",
+    "name" : "tentacle long-tekko like envguarder",
+    "weight" : 260,
+    "color" : "dark_gray",
+    "covers" : ["HANDS", "ARMS"],
+    "to_hit" : 0,
+    "symbol" : "[",
+    "description" : "他の環境防護服などを参考に作成した、触手用の環境防護型の長手甲です。先端部分を中心に、全体を複合素材で作ったため、重さの割には動きにくいです。",
+    "price" : 38000,
+    "material" : ["nomex", "plastic", "leather"],
+    "volume" : 7,
+    "cutting" : 0,
+    "warmth" : 6,
+    "phase" : "solid",
+    "encumbrance" : 20,
+    "environmental_protection": 6,
+    "bashing" : -5,
+    "flags" : ["VARSIZE", "SKINTIGHT", "STURDY", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "WATERPROOF"],
+    "coverage" : 96,
+    "material_thickness" : 2
+},
+
+
+
+
+
+{
+    "type" : "recipe",
+    "result": "yk_tentacle_leggsocks",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": 100000,
+    "reversible": false,
+    "autolearn": true,
+    "tools": [
+	[["sewing_kit", 24] ]
+    ],
+    "components": [
+	[["rag", 34] ]
+    ]
+},{
+    "type" : "recipe",
+    "result": "yk_tentacle_longtekko",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 3,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": true,
+    "tools": [
+	[["sewing_kit", 28] ]
+    ],
+    "components": [
+	[["rag", 44] ],
+	[["leather", 4] ]
+    ]
+},{
+    "type" : "recipe",
+    "result": "yk_tentacle_leggsocks_wool",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": 100000,
+    "reversible": false,
+    "autolearn": true,
+    "tools": [
+	[["sewing_kit", 24] ]
+    ],
+    "components": [
+	[["felt_patch", 34] ]
+    ]
+},{
+    "type" : "recipe",
+    "result": "yk_tentacle_longtekko_wool",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": true,
+    "tools": [
+	[["sewing_kit", 28] ]
+    ],
+    "components": [
+	[["felt_patch", 44] ],
+	[["leather", 4] ]
+    ]
+},{
+    "type" : "recipe",
+    "result": "yk_tentacle_leggsocks_fur",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": 100000,
+    "reversible": false,
+    "autolearn": true,
+    "tools": [
+	[["sewing_kit", 24] ]
+    ],
+    "components": [
+	[["fur", 34] ]
+    ]
+},{
+    "type" : "recipe",
+    "result": "yk_tentacle_longtekko_fur",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": 120000,
+    "reversible": false,
+    "autolearn": true,
+    "tools": [
+	[["sewing_kit", 28] ]
+    ],
+    "components": [
+	[["fur", 44] ],
+	[["leather", 4] ]
+    ]
+},{
+    "type" : "recipe",
+    "result": "yk_tentacle_leggsocks_envguarder",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_LEGS",
+    "skill_used": "tailor",
+    "skills_required": ["fabrication", 6],
+    "difficulty": 7,
+    "time": 240000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities" : [
+	{"id":"CUT","level":1,"amount":1}
+    ],
+    "tools": [
+	[["welder", 24], ["soldering_iron", 24], ["toolset", 24] ],
+	[["sewing_kit", 120] ]
+    ],
+    "components": [
+	[["nomex", 24] ],
+	[["leather", 12] ],
+	[["superglue", 2] ],
+	[["plastic_chunk", 12] ]
+    ]
+},{
+    "type" : "recipe",
+    "result": "yk_tentacle_longtekko_envguarder",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_HANDS",
+    "skill_used": "tailor",
+    "skills_required": ["fabrication", 6],
+    "difficulty": 7,
+    "time": 250000,
+    "reversible": false,
+    "autolearn": true,
+    "qualities" : [
+	{"id":"CUT","level":1,"amount":1}
+    ],
+    "tools": [
+	[["welder", 28], ["soldering_iron", 28], ["toolset", 28] ],
+	[["sewing_kit", 140] ]
+    ],
+    "components": [
+	[["nomex", 28] ],
+	[["leather", 18] ],
+	[["superglue", 2] ],
+	[["plastic_chunk", 14] ]
+    ]
+}]
