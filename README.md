@@ -2,7 +2,7 @@
 
 それぞれに当てられている説明はRPの一例として書いたものなので、必要に応じて改変するなり無視するなりなどして遊んでください
 
-##詳細
+##Scenario
 ###Tentacle
 point needs: -2 points  
 mutations: 8 Tentacles, Leg Tentacles  
